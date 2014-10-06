@@ -30,14 +30,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F5222DB19DD5FB100A4A1A7 /* AIImageFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIImageFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5222DB19DD5FB100A4A1A7 /* AImageFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AImageFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5222DF19DD5FB100A4A1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5222E019DD5FB100A4A1A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F5222E219DD5FB100A4A1A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F5222E519DD5FB100A4A1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F5222E719DD5FB100A4A1A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F5222EA19DD5FB100A4A1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1F5222F019DD5FB200A4A1A7 /* AIIMageFilters.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIIMageFilters.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5222F019DD5FB200A4A1A7 /* AImageFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AImageFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5222F519DD5FB200A4A1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5222F619DD5FB200A4A1A7 /* ImageExperimentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExperimentsTests.swift; sourceTree = "<group>"; };
 		1F52230019DD61B900A4A1A7 /* ImageConvolutionFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConvolutionFilters.swift; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 			children = (
 				1F722B8619E1DC54000FC632 /* image operations */,
 				1F5222DD19DD5FB100A4A1A7 /* example app */,
-				1F5222F319DD5FB200A4A1A7 /* ImageExperimentsTests */,
+				1F5222F319DD5FB200A4A1A7 /* tests */,
 				1F5222DC19DD5FB100A4A1A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,8 +76,8 @@
 		1F5222DC19DD5FB100A4A1A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F5222DB19DD5FB100A4A1A7 /* AIImageFilters.app */,
-				1F5222F019DD5FB200A4A1A7 /* AIIMageFilters.xctest */,
+				1F5222DB19DD5FB100A4A1A7 /* AImageFilters.app */,
+				1F5222F019DD5FB200A4A1A7 /* AImageFiltersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,12 +105,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1F5222F319DD5FB200A4A1A7 /* ImageExperimentsTests */ = {
+		1F5222F319DD5FB200A4A1A7 /* tests */ = {
 			isa = PBXGroup;
 			children = (
 				1F5222F619DD5FB200A4A1A7 /* ImageExperimentsTests.swift */,
 				1F5222F419DD5FB200A4A1A7 /* Supporting Files */,
 			);
+			name = tests;
 			path = ImageExperimentsTests;
 			sourceTree = "<group>";
 		};
@@ -149,7 +150,7 @@
 			);
 			name = AImageFilters;
 			productName = ImageExperiments;
-			productReference = 1F5222DB19DD5FB100A4A1A7 /* AIImageFilters.app */;
+			productReference = 1F5222DB19DD5FB100A4A1A7 /* AImageFilters.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1F5222EF19DD5FB200A4A1A7 /* AImageFiltersTests */ = {
@@ -167,7 +168,7 @@
 			);
 			name = AImageFiltersTests;
 			productName = ImageExperimentsTests;
-			productReference = 1F5222F019DD5FB200A4A1A7 /* AIIMageFilters.xctest */;
+			productReference = 1F5222F019DD5FB200A4A1A7 /* AImageFiltersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
