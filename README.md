@@ -26,7 +26,6 @@ var gaussFilter = gaussBlur()
 var bothFilers = boxFilter >|> gaussFilter
 var output = bothFilters(UIImage(named:"test"))
 
-
 var sharpenTwice = sharpen() * 2
 var sharper = sharpenTwice(UIImage(named:"test"))
 
