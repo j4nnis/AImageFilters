@@ -13,6 +13,10 @@
 		1F5222E819DD5FB100A4A1A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5222E719DD5FB100A4A1A7 /* Images.xcassets */; };
 		1F5222EB19DD5FB100A4A1A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5222E919DD5FB100A4A1A7 /* LaunchScreen.xib */; };
 		1F5222F719DD5FB200A4A1A7 /* ImageExperimentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5222F619DD5FB200A4A1A7 /* ImageExperimentsTests.swift */; };
+		1F52230119DD61B900A4A1A7 /* ImageConvolutionFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F52230019DD61B900A4A1A7 /* ImageConvolutionFilters.swift */; };
+		1F65A35D19E15753000D59F0 /* ImageConvolutionFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F52230019DD61B900A4A1A7 /* ImageConvolutionFilters.swift */; };
+		1F8A4A8B19E17919000BD29F /* FiltersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A4A8A19E17919000BD29F /* FiltersTableViewController.swift */; };
+		1FAAAF9619E1E0D600CA8862 /* ImagePlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAAF9519E1E0D600CA8862 /* ImagePlayground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 		1F5222F019DD5FB200A4A1A7 /* ImageExperimentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageExperimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5222F519DD5FB200A4A1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5222F619DD5FB200A4A1A7 /* ImageExperimentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExperimentsTests.swift; sourceTree = "<group>"; };
+		1F52230019DD61B900A4A1A7 /* ImageConvolutionFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConvolutionFilters.swift; sourceTree = "<group>"; };
+		1F8A4A8A19E17919000BD29F /* FiltersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersTableViewController.swift; sourceTree = "<group>"; };
+		1FAAAF9519E1E0D600CA8862 /* ImagePlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePlayground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +66,8 @@
 		1F5222D219DD5FB100A4A1A7 = {
 			isa = PBXGroup;
 			children = (
-				1F5222DD19DD5FB100A4A1A7 /* ImageExperiments */,
+				1F722B8619E1DC54000FC632 /* image operations */,
+				1F5222DD19DD5FB100A4A1A7 /* example app */,
 				1F5222F319DD5FB200A4A1A7 /* ImageExperimentsTests */,
 				1F5222DC19DD5FB100A4A1A7 /* Products */,
 			);
@@ -74,16 +82,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F5222DD19DD5FB100A4A1A7 /* ImageExperiments */ = {
+		1F5222DD19DD5FB100A4A1A7 /* example app */ = {
 			isa = PBXGroup;
 			children = (
 				1F5222E019DD5FB100A4A1A7 /* AppDelegate.swift */,
 				1F5222E219DD5FB100A4A1A7 /* ViewController.swift */,
+				1F8A4A8A19E17919000BD29F /* FiltersTableViewController.swift */,
 				1F5222E419DD5FB100A4A1A7 /* Main.storyboard */,
-				1F5222E719DD5FB100A4A1A7 /* Images.xcassets */,
 				1F5222E919DD5FB100A4A1A7 /* LaunchScreen.xib */,
+				1F5222E719DD5FB100A4A1A7 /* Images.xcassets */,
 				1F5222DE19DD5FB100A4A1A7 /* Supporting Files */,
 			);
+			name = "example app";
 			path = ImageExperiments;
 			sourceTree = "<group>";
 		};
@@ -112,12 +122,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1F722B8619E1DC54000FC632 /* image operations */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAAF9519E1E0D600CA8862 /* ImagePlayground.swift */,
+				1F52230019DD61B900A4A1A7 /* ImageConvolutionFilters.swift */,
+			);
+			name = "image operations";
+			path = ImageExperiments;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F5222DA19DD5FB100A4A1A7 /* ImageExperiments */ = {
+		1F5222DA19DD5FB100A4A1A7 /* AIImageFilters */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F5222FA19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "ImageExperiments" */;
+			buildConfigurationList = 1F5222FA19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AIImageFilters" */;
 			buildPhases = (
 				1F5222D719DD5FB100A4A1A7 /* Sources */,
 				1F5222D819DD5FB100A4A1A7 /* Frameworks */,
@@ -127,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = ImageExperiments;
+			name = AIImageFilters;
 			productName = ImageExperiments;
 			productReference = 1F5222DB19DD5FB100A4A1A7 /* ImageExperiments.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F5222EF19DD5FB200A4A1A7 /* ImageExperimentsTests */ = {
+		1F5222EF19DD5FB200A4A1A7 /* AIIMageFilters */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F5222FD19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "ImageExperimentsTests" */;
+			buildConfigurationList = 1F5222FD19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AIIMageFilters" */;
 			buildPhases = (
 				1F5222EC19DD5FB200A4A1A7 /* Sources */,
 				1F5222ED19DD5FB200A4A1A7 /* Frameworks */,
@@ -145,7 +165,7 @@
 			dependencies = (
 				1F5222F219DD5FB200A4A1A7 /* PBXTargetDependency */,
 			);
-			name = ImageExperimentsTests;
+			name = AIIMageFilters;
 			productName = ImageExperimentsTests;
 			productReference = 1F5222F019DD5FB200A4A1A7 /* ImageExperimentsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -168,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F5222D619DD5FB100A4A1A7 /* Build configuration list for PBXProject "ImageExperiments" */;
+			buildConfigurationList = 1F5222D619DD5FB100A4A1A7 /* Build configuration list for PBXProject "AImageFilters" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +201,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F5222DA19DD5FB100A4A1A7 /* ImageExperiments */,
-				1F5222EF19DD5FB200A4A1A7 /* ImageExperimentsTests */,
+				1F5222DA19DD5FB100A4A1A7 /* AIImageFilters */,
+				1F5222EF19DD5FB200A4A1A7 /* AIIMageFilters */,
 			);
 		};
 /* End PBXProject section */
@@ -213,7 +233,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5222E319DD5FB100A4A1A7 /* ViewController.swift in Sources */,
+				1F52230119DD61B900A4A1A7 /* ImageConvolutionFilters.swift in Sources */,
 				1F5222E119DD5FB100A4A1A7 /* AppDelegate.swift in Sources */,
+				1FAAAF9619E1E0D600CA8862 /* ImagePlayground.swift in Sources */,
+				1F8A4A8B19E17919000BD29F /* FiltersTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5222F719DD5FB200A4A1A7 /* ImageExperimentsTests.swift in Sources */,
+				1F65A35D19E15753000D59F0 /* ImageConvolutionFilters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +254,7 @@
 /* Begin PBXTargetDependency section */
 		1F5222F219DD5FB200A4A1A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F5222DA19DD5FB100A4A1A7 /* ImageExperiments */;
+			target = 1F5222DA19DD5FB100A4A1A7 /* AIImageFilters */;
 			targetProxy = 1F5222F119DD5FB200A4A1A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -336,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ImageExperiments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ImageExperiments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,7 +415,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F5222D619DD5FB100A4A1A7 /* Build configuration list for PBXProject "ImageExperiments" */ = {
+		1F5222D619DD5FB100A4A1A7 /* Build configuration list for PBXProject "AImageFilters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F5222F819DD5FB200A4A1A7 /* Debug */,
@@ -398,21 +424,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F5222FA19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "ImageExperiments" */ = {
+		1F5222FA19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AIImageFilters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F5222FB19DD5FB200A4A1A7 /* Debug */,
 				1F5222FC19DD5FB200A4A1A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1F5222FD19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "ImageExperimentsTests" */ = {
+		1F5222FD19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AIIMageFilters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F5222FE19DD5FB200A4A1A7 /* Debug */,
 				1F5222FF19DD5FB200A4A1A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

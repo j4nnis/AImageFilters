@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ImageExperiments.xcodeproj">
+      location = "self:AImageFilters.xcodeproj">
    </FileRef>
 </Workspace>
