@@ -30,14 +30,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F5222DB19DD5FB100A4A1A7 /* ImageExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5222DB19DD5FB100A4A1A7 /* AIImageFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIImageFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5222DF19DD5FB100A4A1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5222E019DD5FB100A4A1A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F5222E219DD5FB100A4A1A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F5222E519DD5FB100A4A1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F5222E719DD5FB100A4A1A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F5222EA19DD5FB100A4A1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1F5222F019DD5FB200A4A1A7 /* ImageExperimentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageExperimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5222F019DD5FB200A4A1A7 /* AIIMageFilters.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIIMageFilters.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5222F519DD5FB200A4A1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5222F619DD5FB200A4A1A7 /* ImageExperimentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExperimentsTests.swift; sourceTree = "<group>"; };
 		1F52230019DD61B900A4A1A7 /* ImageConvolutionFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConvolutionFilters.swift; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 		1F5222DC19DD5FB100A4A1A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F5222DB19DD5FB100A4A1A7 /* ImageExperiments.app */,
-				1F5222F019DD5FB200A4A1A7 /* ImageExperimentsTests.xctest */,
+				1F5222DB19DD5FB100A4A1A7 /* AIImageFilters.app */,
+				1F5222F019DD5FB200A4A1A7 /* AIIMageFilters.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F5222DA19DD5FB100A4A1A7 /* AIImageFilters */ = {
+		1F5222DA19DD5FB100A4A1A7 /* AImageFilters */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F5222FA19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AIImageFilters" */;
+			buildConfigurationList = 1F5222FA19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AImageFilters" */;
 			buildPhases = (
 				1F5222D719DD5FB100A4A1A7 /* Sources */,
 				1F5222D819DD5FB100A4A1A7 /* Frameworks */,
@@ -147,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = AIImageFilters;
+			name = AImageFilters;
 			productName = ImageExperiments;
-			productReference = 1F5222DB19DD5FB100A4A1A7 /* ImageExperiments.app */;
+			productReference = 1F5222DB19DD5FB100A4A1A7 /* AIImageFilters.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F5222EF19DD5FB200A4A1A7 /* AIIMageFilters */ = {
+		1F5222EF19DD5FB200A4A1A7 /* AImageFiltersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F5222FD19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AIIMageFilters" */;
+			buildConfigurationList = 1F5222FD19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AImageFiltersTests" */;
 			buildPhases = (
 				1F5222EC19DD5FB200A4A1A7 /* Sources */,
 				1F5222ED19DD5FB200A4A1A7 /* Frameworks */,
@@ -165,9 +165,9 @@
 			dependencies = (
 				1F5222F219DD5FB200A4A1A7 /* PBXTargetDependency */,
 			);
-			name = AIIMageFilters;
+			name = AImageFiltersTests;
 			productName = ImageExperimentsTests;
-			productReference = 1F5222F019DD5FB200A4A1A7 /* ImageExperimentsTests.xctest */;
+			productReference = 1F5222F019DD5FB200A4A1A7 /* AIIMageFilters.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -201,8 +201,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F5222DA19DD5FB100A4A1A7 /* AIImageFilters */,
-				1F5222EF19DD5FB200A4A1A7 /* AIIMageFilters */,
+				1F5222DA19DD5FB100A4A1A7 /* AImageFilters */,
+				1F5222EF19DD5FB200A4A1A7 /* AImageFiltersTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,7 +254,7 @@
 /* Begin PBXTargetDependency section */
 		1F5222F219DD5FB200A4A1A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F5222DA19DD5FB100A4A1A7 /* AIImageFilters */;
+			target = 1F5222DA19DD5FB100A4A1A7 /* AImageFilters */;
 			targetProxy = 1F5222F119DD5FB200A4A1A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -424,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F5222FA19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AIImageFilters" */ = {
+		1F5222FA19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AImageFilters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F5222FB19DD5FB200A4A1A7 /* Debug */,
@@ -433,7 +433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F5222FD19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AIIMageFilters" */ = {
+		1F5222FD19DD5FB200A4A1A7 /* Build configuration list for PBXNativeTarget "AImageFiltersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F5222FE19DD5FB200A4A1A7 /* Debug */,
