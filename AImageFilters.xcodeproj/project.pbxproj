@@ -20,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1F3F01B619E4567900A74F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F5222D319DD5FB100A4A1A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F5222DA19DD5FB100A4A1A7;
+			remoteInfo = AImageFilters;
+		};
 		1F5222F119DD5FB200A4A1A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F5222D319DD5FB100A4A1A7 /* Project object */;
@@ -165,6 +172,7 @@
 			);
 			dependencies = (
 				1F5222F219DD5FB200A4A1A7 /* PBXTargetDependency */,
+				1F3F01B719E4567900A74F3A /* PBXTargetDependency */,
 			);
 			name = AImageFiltersTests;
 			productName = ImageExperimentsTests;
@@ -253,6 +261,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1F3F01B719E4567900A74F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F5222DA19DD5FB100A4A1A7 /* AImageFilters */;
+			targetProxy = 1F3F01B619E4567900A74F3A /* PBXContainerItemProxy */;
+		};
 		1F5222F219DD5FB200A4A1A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1F5222DA19DD5FB100A4A1A7 /* AImageFilters */;
@@ -394,7 +407,7 @@
 				INFOPLIST_FILE = ImageExperimentsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageExperiments.app/ImageExperiments";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AImageFilters.app/AImageFilters";
 			};
 			name = Debug;
 		};
@@ -409,7 +422,7 @@
 				INFOPLIST_FILE = ImageExperimentsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageExperiments.app/ImageExperiments";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AImageFilters.app/AImageFilters";
 			};
 			name = Release;
 		};

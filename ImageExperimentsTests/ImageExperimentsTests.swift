@@ -29,7 +29,7 @@ import XCTest
 
 class ImageExperimentsTests: XCTestCase {
     
-    let image = UIImage(named: "200")
+    let image = UIImage(named: "sharptest")
     
     override func setUp() {
         super.setUp()

@@ -109,7 +109,7 @@ func >|> (filter1: Filter, filter2: Filter) -> Filter {
 }
 
 func * (lhs: Filter, rhs: Int) -> Filter {
-    if (rhs > 2){
+    if (rhs > 1){
         return (lhs >|> lhs) * (rhs-1)
     } else {
         return lhs
